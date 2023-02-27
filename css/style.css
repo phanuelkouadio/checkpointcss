@@ -8,23 +8,20 @@ body{
     display: flex;
     justify-content: center; 
     align-items: center;
-    border: 1px solid green;
     height: 100vh;
 }
 
 
 
 .container {
-    border: 1px solid red;
     height: 500px;
     width: 900px;
+    display: flex;
 }
 
 .box{
-    border: 1px solid blue;
     height: 500px;
     width: 33%;
-    display: inline-block;
 }
 .box-1{
     background-color: orange;
@@ -39,6 +36,25 @@ body{
     color: white;
 }
 
+.btn{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    width: 150px;
+
+}
+
+.luxury-btn{
+    color: hsl(179, 100%, 13%);
+}
+
+.suv-btn{
+    color: hsl(184, 100%, 22%);
+}
+
+.sedans-btn{
+    color : hsl(31, 77%, 52%)
+}
 
 #title{
     margin: 30px;
@@ -69,11 +85,14 @@ body{
     margin: 40px;
 }
 #in{
-    margin: 100px;
+    margin-top: 100px;
+    margin-left: 40px;
 }
 #ij{
     margin: 100px;
+    margin-left: 40px;
 }
 #ip{
     margin: 100px;
+    margin-left: 40px;
 }
