@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: 1px solid green;
+    height: 100vh;
+}
+
+
+
+.container {
+    border: 1px solid red;
+    height: 500px;
+    width: 900px;
+}
+
+.box{
+    border: 1px solid blue;
+    height: 500px;
+    width: 33%;
+    display: inline-block;
+}
+.box-1{
+    background-color: orange;
+    color: white;
+}
+.box-2{
+    background-color: darkcyan;
+    color: white;
+}
+.box-3{
+    background-color: darkslategray;
+    color: white;
+}
+
+
+#title{
+    margin: 30px;
+}
+#bo{
+    margin: 40px;
+}
+#para{
+    margin: 40px;
+}
+
+#de{
+    margin: 30px;
+}
+#demo{
+    margin: 40px;
+}
+#sa{
+    margin: 40px;
+}
+#me{
+    margin: 30px;
+}
+#iden{
+    margin: 40px;
+}
+#demobox{
+    margin: 40px;
+}
+#in{
+    margin: 100px;
+}
+#ij{
+    margin: 100px;
+}
+#ip{
+    margin: 100px;
+}
